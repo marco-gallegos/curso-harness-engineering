@@ -20,33 +20,37 @@ graph TD
 
 
 ### Version extendida
+---
+title: Proceso de mejora continua KAIZEN
+---
+
 graph TD
     A((Inicio)) --> X1
     
     subgraph SG_X[" "]
         X1[Creacion de\n proyecto/ carpeta]
-        X2[Detalles:\n- Estructura de carpetas\n- Nomenclatura\n- Metadata inicial]
+        X2[Detalles:\n- Estructura de carpetas\n- Git\n- Inicializacion inicial]
     end
     
     X1 --> B1
     
     subgraph SG_B[" "]
         B1[Harness Engineering]
-        B2[Detalles:\n- Diseño inicial\n- Especificaciones\n- Requerimientos técnicos]
+        B2[Detalles:\n- readme, agents, skills\n- Especificaciones\n- Requerimientos técnicos,\n- ejemplos]
     end
     
     B1 --> C1
     
     subgraph SG_C[" "]
         C1[Pre procesado]
-        C2[Detalles:\n- Limpieza de datos\n- Normalización\n- Preparación de inputs]
+        C2[Detalles:\n- Limpieza de datos\n- Normalización\n- Preparación de inputs,\n- pasos intermedios]
     end
     
     C1 -- Validacion de preprocesamiento --> D1
     
     subgraph SG_D[" "]
         D1[Procesamiento con IA]
-        D2[Detalles:\n- Algoritmos aplicados\n- Modelos utilizados\n- Parámetros de configuración]
+        D2[Detalles:\n- Modelos utilizados\n- Parámetros de configuración]
     end
     
     D1 -- Productos Crudos --> E1
@@ -63,7 +67,7 @@ graph TD
     
     subgraph SG_G[" "]
         G1[Exportar a formatos finales]
-        G2[Detalles:\n- Formatos de salida\n- Documentación\n- Entregables]
+        G2[Detalles:\n- Formatos de salida\n- Documentación\n- Entregables\n- mejorar ejemplos y prompts\n- mejorar QA]
     end
 
     G1 --> H((Fin))
