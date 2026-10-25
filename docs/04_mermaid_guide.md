@@ -54,6 +54,23 @@ Los diagramas Mermaid se pueden convertir en:
 
 ---
 
+## 📝 Tarea Práctica del Módulo (Homework 04)
+
+**Objetivo:** Diseñar un diagrama de flujo de un proceso operativo real de tu organización utilizando Mermaid.
+
+### Instrucciones Paso a Paso:
+1. Elige un proceso habitual de tu oficina (por ejemplo: *Aprobación de Vacaciones*, *Solicitud de Viáticos*, *Compra de Insumos* o *Alta de Cliente*).
+2. Crea un archivo llamado `diagrama_proceso_negocio.md`.
+3. Escribe un bloque Mermaid de tipo `flowchart TD` que contenga:
+   - Un nodo de inicio rectangular (`[Inicio]`).
+   - Al menos un **rombo de decisión con llaves** (`{¿Pregunta o condición?}`).
+   - Dos caminos diferenciados: `Sí` y `No`.
+   - Dos nodos de fin o acciones derivadas.
+4. Prueba tu código en [mermaid.live](https://mermaid.live/) o en la vista previa de VS Code para verificar que dibuja correctamente.
+5. **Entregable:** Archivo `diagrama_proceso_negocio.md` con el bloque de código Mermaid funcional.
+
+---
+
 ## 🔗 Referencias Externas y Recursos
 - [Documentación Oficial de Mermaid.js](https://mermaid.js.org/)
 - [Editor en Vivo Mermaid Live Editor](https://mermaid.live/)

@@ -36,20 +36,20 @@ No todos los modelos ni plataformas de IA cumplen el mismo rol dentro de una org
 - **Fortaleza**: Control granular sobre directivas de proyecto, soporte nativo de *Skills* reusables y delegación fluida a subagentes sin salir del espacio de trabajo.
 - **Público**: Equipos que buscan transformar directivas organizacionales en automatizaciones auditables sobre sus propios archivos.
 
-### 2. OpenCode (Ecosistema Abierto / Open Source)
-- **Enfoque**: Arneses de código abierto para ejecución local o en servidores propios (*Self-Hosted*).
-- **Fortaleza**: **Soberanía y privacidad total de los datos**. Ninguna información confidencial de la empresa viaja a servidores de terceros en la nube. Totalmente auditable y libre de licencias por asiento.
-- **Público**: Organizaciones con políticas estrictas de cumplimiento normativo (banca, salud, sector legal) que cuentan con infraestructura propia.
+### 2. OpenCode (Ecosistema Open Source "Todo Incluido")
+- **Enfoque**: Agente de código abierto robusto para la terminal y entornos de desarrollo con filosofía *"Batteries-Included"* (todo incluido).
+- **Fortaleza**: Cuenta con modo de planificación (*Plan Mode*), gestión multi-sesión, subagentes integrados, diagnósticos de código y soberanía total de datos al desplegarse localmente.
+- **Público**: Organizaciones y desarrolladores que buscan una plataforma lista para usar sin necesidad de configurar extensiones manuales.
 
-### 3. Claude (Anthropic - Projects & Claude Code)
+### 3. Pi Coding Agent (`pi` - Earendil / pi.dev)
+- **Enfoque**: El arnés de agente de código abierto más **minimalista, hackeable y ligero** del ecosistema (la filosofía *"Neovim"* de los agentes).
+- **Fortaleza**: Su núcleo es ultra-ligero: opera con solo 4 herramientas esenciales (`read`, `write`, `edit`, `bash`) y un prompt de sistema diminuto (<1,000 tokens). Es altamente extensible mediante TypeScript, extensiones modulares, skills y servidores MCP. Además, soporta múltiples proveedores (puede incluso utilizar a OpenCode como proveedor de inferencia: `pi --model opencode/...`).
+- **Público**: Equipos que desean control absoluto sobre cada token de contexto, personalización profunda y nulo consumo superfluo de recursos.
+
+### 4. Claude (Anthropic - Projects & Claude Code)
 - **Enfoque**: Agente en la nube de alta fidelidad analítica con ventana de contexto masiva (200k+ tokens).
 - **Fortaleza**: Capacidad de razonamiento conceptual superior, lectura de manuales o contratos de cientos de páginas sin perder detalles, y generación de *Artifacts* interactivos.
 - **Público**: Análisis estratégico, revisión de políticas corporativas extensas y auditoría de documentos densos.
-
-### 4. Pi Agent (Inflection AI)
-- **Enfoque**: Asistente conversacional empático y de diálogo personal.
-- **Fortaleza**: Conversación cálida, fluida y adaptativa; excelente para brainstorming desestructurado, reflexión gerencial o coaching de comunicación.
-- **Público**: Usuarios individuales que buscan un compañero de conversación y clarificación de ideas, **no de ejecución de tareas operativas**.
 
 ### 5. DeepSeek Harness (DeepSeek V3 & R1)
 - **Enfoque**: Modelos de razonamiento profundo con pesos abiertos (*Open Weights*) integrados en arneses de inferencia lógica.
@@ -60,13 +60,13 @@ No todos los modelos ni plataformas de IA cumplen el mismo rol dentro de una org
 
 ## 📊 Matriz Comparativa Ejecutiva
 
-| Plataforma | Tipo de Arnés | Entorno de Ejecución | Acceso a Archivos / Herramientas | Enfoque Primario de Negocio |
-| :--- | :--- | :--- | :--- | :--- |
-| **Antigravity** | Completo (Rules + Tools + Subagents) | Local & Híbrido | Nativo (Lectura, escritura, terminal, web) | Flujos corporativos estructurados y orquestación |
-| **OpenCode** | Abierto y Modular | 100% Local / Self-Hosted | Extensible (Scripts locales y APIs abiertas) | Máxima privacidad y soberanía de datos internos |
-| **Claude (Anthropic)** | Gestionado (Projects / Artifacts) | Nube (Cloud Anthropic) | Mediante Artifacts, Claude Code o API | Razonamiento complejo sobre textos extensos |
-| **DeepSeek Harness** | Inferencia Lógica / Razonamiento | Nube o Local (vLLM / Ollama) | Mediante orquestadores externos (LangChain, etc.) | Lógica analítica, matemáticas y costos ultra-bajos |
-| **Pi Agent** | Nulo (Chatbot Conversacional Puro) | Nube (Inflection) | Nulo (Solo texto en pantalla) | Brainstorming personal y coaching de comunicación |
+| Plataforma | Tipo de Arnés | Entorno de Ejecución | Acceso a Herramientas / Archivos | Filosofía de Diseño | Enfoque Primario de Negocio |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Antigravity** | Completo Multi-agente | Local & Híbrido | Nativo (Lectura, escritura, terminal, web) | Arnés guiado por reglas (`AGENT.md`) | Flujos corporativos estructurados y orquestación |
+| **OpenCode** | Open Source "Todo Incluido" | 100% Local / Self-Hosted | Nativo (Plan mode, sub-agents, LSP) | "Estilo VS Code" (Plataforma lista para usar) | Privacidad y cumplimiento legal con funciones completas |
+| **Pi Agent (`pi`)** | Open Source Minimalista | 100% Local / Terminal | 4 herramientas esenciales (`read`, `write`, `edit`, `bash`) | "Estilo Neovim" (Núcleo mínimo, ultra-extensible) | Máximo control de tokens, scripts a medida y ligereza |
+| **Claude (Anthropic)** | Gestionado (Projects / Code) | Nube (Cloud Anthropic) | Mediante Artifacts, Claude Code o API | Alta fidelidad en contexto masivo | Razonamiento complejo sobre textos y contratos extensos |
+| **DeepSeek Harness** | Inferencia / Razonamiento | Nube o Local (vLLM / Ollama) | Mediante orquestadores externos (LangChain, etc.) | Razonamiento reflexivo de pesos abiertos | Lógica analítica, matemáticas y costes ultra-bajos |
 
 ---
 
@@ -75,10 +75,10 @@ No todos los modelos ni plataformas de IA cumplen el mismo rol dentro de una org
 Para un profesional no técnico, conocer los límites de cada herramienta es tan crucial como conocer sus bondades:
 
 ### 1. Limitaciones Específicas por Plataforma:
-- **Antigravity**: Requiere definir con rigor el arnés (`AGENT.md`); si las reglas son ambiguas, los subagentes pueden tomar caminos no deseados.
-- **OpenCode**: Demanda servidores locales potentes con tarjetas gráficas dedicadas (GPUs) si se desea prescindir de la nube por completo.
-- **Claude**: Dependencia 100% de la nube y conexión a internet; sujeto a límites de uso (*rate limits*) en horas pico y políticas de moderación centralizadas.
-- **Pi Agent**: **Incapacidad total de arnés**. No puede leer un archivo Excel, no puede guardar documentos en tu computadora, ni ejecutar automatizaciones de procesos.
+- **Antigravity**: Requiere definir con rigor el arnés (`AGENT.md`); si las reglas son ambiguas, los subagentes pueden iterar en bucles.
+- **OpenCode**: Al ser una suite completa, su prompt inicial y contexto base consumen más tokens por llamada que un arnés minimalista.
+- **Pi Agent (`pi`)**: Al ser minimalista por diseño, requiere que el usuario instale o configure extensiones si necesita interfaces gráficas complejas.
+- **Claude**: Dependencia 100% de la nube y conexión a internet; sujeto a límites de uso (*rate limits*) en horas pico.
 - **DeepSeek (R1)**: Mayor latencia de respuesta (los modelos de razonamiento se toman varios segundos en "pensar" antes de emitir la primera palabra) y requiere un arnés externo para conectarse con herramientas del mundo real.
 
 ### 2. Limitaciones Generales del Harness Engineering:
@@ -114,9 +114,21 @@ Has superado la meta de la Fase 2 si el agente cumple con lo siguiente:
 
 ---
 
+## 📝 Tarea Práctica del Módulo (Homework 02)
+
+**Objetivo:** Vivir la experiencia práctica de interactuar con un agente local y evaluar la diferencia entre arneses abiertos.
+
+### Instrucciones Paso a Paso:
+1. **Instalación:** Completa la meta práctica instalando Antigravity o activando un agente en tu editor de código.
+2. **Ejecución del Primer Test:** Abre la carpeta del curso y pídele al agente:
+   > *"Hola agente. Resume en 3 viñetas qué diferencias prácticas encontraría un profesional administrativo entre usar OpenCode ('batteries-included') y Pi Coding Agent (núcleo minimalista hackeable)."*
+3. **Entregable:** Guarda la respuesta del agente en un nuevo archivo llamado `docs/tarea_02_agentes.md` dentro de tu proyecto.
+
+---
+
 ## 🔗 Referencias Externas y Recursos
 - [Documentación Oficial de Antigravity](https://antigravity.google)
-- [Ecosistema Abierto OpenCode](https://github.com/)
+- [Sitio Oficial de OpenCode (opencode.ai)](https://opencode.ai/)
+- [Sitio Oficial de Pi Coding Agent (pi.dev)](https://pi.dev/)
 - [Anthropic Claude & Claude Code Documentation](https://docs.anthropic.com/)
 - [DeepSeek AI Research & Models](https://www.deepseek.com/)
-- [Inflection Pi Assistant](https://pi.ai/)

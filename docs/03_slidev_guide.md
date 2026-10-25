@@ -63,6 +63,27 @@ Una de las grandes fortalezas de Slidev es que el creador de la presentación pu
 
 ---
 
+## 📝 Tarea Práctica del Módulo (Homework 03)
+
+**Objetivo:** Redactar una presentación ejecutiva de 3 diapositivas utilizando la sintaxis de separación de Slidev (`---`).
+
+### Instrucciones Paso a Paso:
+1. Crea un archivo llamado `mis_diapositivas_ejecutivas.md` en tu espacio de trabajo.
+2. Agrega el encabezado de configuración de tema en la parte superior:
+   ```markdown
+   ---
+   theme: default
+   title: Resumen de Iniciativas Estratégicas
+   ---
+   ```
+3. Diseña 3 diapositivas separadas estrictamente por `---`:
+   - **Diapositiva 1 (Portada):** Título de tu departamento, subtítulo y tu nombre/cargo.
+   - **Diapositiva 2 (Resultados Clave):** 3 viñetas con cifras o porcentajes relevantes de tu área.
+   - **Diapositiva 3 (Plan de Acción):** Una lista numerada con los próximos 2 pasos operativos.
+4. **Entregable:** Archivo `mis_diapositivas_ejecutivas.md` listo para ser procesado por la IA o exportado a PDF.
+
+---
+
 ## 🔗 Referencias Externas y Recursos
 - [Sitio Oficial de Slidev (sli.dev)](https://sli.dev/)
 - [Galería de Temas Oficiales de Slidev](https://sli.dev/themes/gallery.html)

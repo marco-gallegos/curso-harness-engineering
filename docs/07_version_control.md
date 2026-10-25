@@ -39,6 +39,23 @@ flowchart LR
 
 ---
 
+## 📝 Tarea Práctica del Módulo (Homework 07)
+
+**Objetivo:** Perder el miedo a Git realizando tu primer *Commit* y sincronización visual mediante GitHub Desktop sin tocar la terminal.
+
+### Instrucciones Paso a Paso:
+1. Abre **GitHub Desktop** en tu computadora.
+2. Agrega este repositorio local seleccionando *File > Add Local Repository* y apuntando a la carpeta `curso-_harness_engineering/`.
+3. Abre tu archivo `mi_reporte_administrativo.md` en tu editor y modifica una línea (por ejemplo, actualiza una fecha o agrega un párrafo de observaciones).
+4. Vuelve a GitHub Desktop: observa cómo resalta los cambios en color verde.
+5. En la esquina inferior izquierda, escribe un mensaje descriptivo de commit:
+   - *Resumen:* `docs: actualizar fechas en reporte mensual`
+6. Haz clic en el botón azul **"Commit to master"** (o main).
+7. Si el repositorio está conectado a GitHub, haz clic en **"Push origin"** para subir los cambios a la nube.
+8. **Entregable:** Captura visual o registro del historial donde figure tu primer commit con mensaje claro.
+
+---
+
 ## 🔗 Referencias Externas y Recursos
 - [Descargar GitHub Desktop Oficial](https://desktop.github.com/)
 - [Guía Visual de Inicio Rápido en GitHub Desktop](https://docs.github.com/es/desktop)

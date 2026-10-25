@@ -108,6 +108,22 @@ Uno de los mayores superpoderes de Markdown en el **Harness Engineering** es que
 
 ---
 
+## 📝 Tarea Práctica del Módulo (Homework 01)
+
+**Objetivo:** Crear tu primer documento administrativo en Markdown puro y verificar su portabilidad sin Microsoft Word.
+
+### Instrucciones Paso a Paso:
+1. Abre tu editor de texto (VS Code o Zed).
+2. Crea un nuevo archivo llamado `mi_reporte_administrativo.md` en la raíz de tu carpeta.
+3. Incluye los siguientes elementos obligatorios:
+   - Un título principal (`# Reporte Operativo Mensual`) y un subtítulo (`## Resumen de Desempeño`).
+   - Una tabla con al menos 3 columnas: `Actividad`, `Responsable` y `Estado (Pendiente / Completado)`.
+   - Un bloque de cita (`>`) con una recomendación de negocio en negrita.
+4. Abre la vista previa en tu editor (`Ctrl + Shift + V` en VS Code) para comprobar que el diseño se renderiza con nitidez.
+5. **Entregable:** Conservar el archivo `mi_reporte_administrativo.md` guardado en tu proyecto.
+
+---
+
 ## 🔗 Referencias Externas y Recursos de Aprendizaje
 - [Descargar VS Code](https://code.visualstudio.com/)
 - [Sitio Oficial de Zed Editor](https://zed.dev/)

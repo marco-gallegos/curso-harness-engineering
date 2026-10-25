@@ -152,7 +152,38 @@ flowchart TD
           </div>
         `
       }
-    ]
+    ,
+      {
+        title: "📝 Tarea Práctica — Módulo 00",
+        content: `
+          <div class="p-5 rounded-2xl border border-amber-200 dark:border-amber-800/60 bg-amber-50/40 dark:bg-amber-950/20">
+            <div class="flex items-center gap-3 mb-4">
+              <span class="text-2xl">📝</span>
+              <div>
+                <h4 class="font-bold text-amber-900 dark:text-amber-200 text-base">Tarea Práctica — Módulo 00</h4>
+                <p class="text-xs text-amber-700 dark:text-amber-400 font-medium">Mapa Personal del Flujo de Trabajo con IA</p>
+              </div>
+            </div>
+            <ol class="space-y-2 mb-5 list-none">
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Crea un archivo llamado <code>docs/tarea_00_flujo.md</code>.</span></li>
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Describe con tus propias palabras: ¿Cuál es la diferencia entre un <em>chatbot</em> reactivo y un <em>agente</em> autónomo?</span></li>
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Dibuja (en texto o con Mermaid) el ciclo de trabajo <strong>Percibir → Planificar → Actuar → Verificar</strong> aplicado a una tarea de tu departamento.</span></li>
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Identifica una tarea repetitiva de tu trabajo diario que podría delegarse a un agente bien configurado.</span></li>
+            </ol>
+            <div class="p-3.5 rounded-xl border border-emerald-200 dark:border-emerald-800/60 bg-emerald-50/40 dark:bg-emerald-950/20 mb-3">
+              <h5 class="font-bold text-emerald-800 dark:text-emerald-300 text-xs mb-2">✅ Criterio de Éxito:</h5>
+              <ul class="space-y-1 list-none">
+              <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span><span class="text-xs text-slate-700 dark:text-slate-300">Archivo <code>docs/tarea_00_flujo.md</code> creado.</span></li>
+              <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span><span class="text-xs text-slate-700 dark:text-slate-300">La distinción chatbot vs. agente está explicada con un ejemplo de tu área.</span></li>
+              <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span><span class="text-xs text-slate-700 dark:text-slate-300">Al menos una tarea real identificada como candidata a automatización.</span></li>
+              </ul>
+            </div>
+            <div class="p-3 rounded-lg bg-blue-50/60 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800/40 text-xs text-blue-800 dark:text-blue-300">
+              💡 No te preocupes por la sintaxis perfecta — el objetivo es articular el concepto con tus propias palabras. Eso es exactamente lo que hace un Harness Engineer: pensar, no programar.
+            </div>
+          </div>
+        `
+      }]
   },
   {
     id: 1,
@@ -360,7 +391,38 @@ Este es un texto ~~tachado~~ (para marcar elementos obsoletos).</code></pre>
           </div>
         `
       }
-    ]
+    ,
+      {
+        title: "📝 Tarea Práctica — Módulo 01",
+        content: `
+          <div class="p-5 rounded-2xl border border-amber-200 dark:border-amber-800/60 bg-amber-50/40 dark:bg-amber-950/20">
+            <div class="flex items-center gap-3 mb-4">
+              <span class="text-2xl">📝</span>
+              <div>
+                <h4 class="font-bold text-amber-900 dark:text-amber-200 text-base">Tarea Práctica — Módulo 01</h4>
+                <p class="text-xs text-amber-700 dark:text-amber-400 font-medium">Tu Primer Documento Markdown Profesional</p>
+              </div>
+            </div>
+            <ol class="space-y-2 mb-5 list-none">
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Crea el archivo <code>docs/tarea_01_markdown.md</code>.</span></li>
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Incluye al menos: un encabezado de nivel 1, un párrafo introductorio, una lista con tres puntos, una tabla con dos columnas y dos filas, y un bloque de código cercado.</span></li>
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Agrega un bloque <em>frontmatter</em> YAML al inicio del archivo con campos <code>title</code>, <code>author</code> y <code>date</code>.</span></li>
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Opcional avanzado: exporta el archivo a PDF usando <code>pandoc</code> asistido por el agente.</span></li>
+            </ol>
+            <div class="p-3.5 rounded-xl border border-emerald-200 dark:border-emerald-800/60 bg-emerald-50/40 dark:bg-emerald-950/20 mb-3">
+              <h5 class="font-bold text-emerald-800 dark:text-emerald-300 text-xs mb-2">✅ Criterio de Éxito:</h5>
+              <ul class="space-y-1 list-none">
+              <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span><span class="text-xs text-slate-700 dark:text-slate-300">El archivo <code>docs/tarea_01_markdown.md</code> existe y tiene todos los elementos solicitados.</span></li>
+              <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span><span class="text-xs text-slate-700 dark:text-slate-300">El frontmatter YAML está correctamente delimitado con <code>---</code>.</span></li>
+              <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span><span class="text-xs text-slate-700 dark:text-slate-300">La tabla tiene encabezados y al menos dos filas de datos reales (no de ejemplo).</span></li>
+              </ul>
+            </div>
+            <div class="p-3 rounded-lg bg-blue-50/60 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800/40 text-xs text-blue-800 dark:text-blue-300">
+              💡 Pídele al agente: <em>"Revisa mi archivo tarea_01_markdown.md y dime si la sintaxis Markdown es correcta"</em>. Eso es Harness Engineering en acción.
+            </div>
+          </div>
+        `
+      }]
   },
   {
     id: 2,
@@ -512,14 +574,16 @@ Este es un texto ~~tachado~~ (para marcar elementos obsoletos).</code></pre>
             <!-- 5. Pi Agent -->
             <div class="p-5 rounded-2xl border border-rose-200 dark:border-rose-800/60 bg-rose-50/30 dark:bg-rose-950/20 md:col-span-2">
               <div class="flex items-center justify-between mb-2">
-                <h4 class="font-bold text-rose-950 dark:text-rose-200 text-base">5. Pi Agent (Inflection AI)</h4>
-                <span class="px-2 py-0.5 rounded text-[10px] font-bold uppercase bg-rose-100 dark:bg-rose-900/60 text-rose-700 dark:text-rose-300">Acompañante Conversacional</span>
+                <h4 class="font-bold text-rose-950 dark:text-rose-200 text-base">5. Pi — Agente Minimalista Hackeable (pi.dev)</h4>
+                <span class="px-2 py-0.5 rounded text-[10px] font-bold uppercase bg-rose-100 dark:bg-rose-900/60 text-rose-700 dark:text-rose-300">OSS · Minimalista · TypeScript</span>
               </div>
               <p class="text-xs text-slate-700 dark:text-slate-300 mb-2 leading-relaxed">
-                Diseñado como un asistente empático y reflexivo con foco en conversación natural humana. <strong>Atención: carece de arquitectura de arnés de ejecución</strong>; no accede a archivos locales ni corre herramientas.
+                <strong>Pi</strong> es un arnés de codificación <strong>de código abierto, ultra-minimalista y completamente hackeable</strong>, creado por el equipo de Earendil (<a href="https://pi.dev" target="_blank" class="underline text-rose-700 dark:text-rose-300">pi.dev</a>). Su filosofía es la opuesta a un agente "todo-incluido": el prompt de sistema tiene menos de 1,000 tokens y solo expone <strong>4 herramientas</strong> (<code>read</code>, <code>write</code>, <code>edit</code>, <code>bash</code>). Puedes extenderlo en TypeScript en minutos y usarlo como motor interno de OpenCode u otros orquestadores.
               </p>
-              <div class="text-[11px] text-slate-500">
-                <strong>Caso de uso:</strong> Clarificación de ideas personales, coaching de comunicación y desahogo de dudas gerenciales en diálogo abierto.
+              <div class="text-[11px] text-slate-500 space-y-1">
+                <div><strong>Ventaja clave:</strong> Footprint mínimo — ideal para entornos restringidos donde importa cada token de contexto.</div>
+                <div><strong>Caso de uso:</strong> Automatizaciones quirúrgicas de archivos, scripting ligero y base para construir tu propio arnés personalizado.</div>
+                <div><strong>Diferencia con OpenCode:</strong> Si OpenCode es el "VS Code" (completo, con baterías incluidas), Pi es el "Neovim" (potente, configurable desde cero, solo para quien quiere control total).</div>
               </div>
             </div>
           </div>
@@ -575,12 +639,12 @@ Este es un texto ~~tachado~~ (para marcar elementos obsoletos).</code></pre>
                   <td class="p-3 font-medium">Lógica, matemáticas y optimización de costes</td>
                 </tr>
                 <tr>
-                  <td class="p-3 font-bold text-rose-700 dark:text-rose-400">Pi Agent</td>
-                  <td class="p-3"><span class="px-2 py-0.5 rounded bg-rose-50 dark:bg-rose-950 text-rose-700 dark:text-rose-300 font-semibold text-[11px]">Nulo (Sin Arnés)</span></td>
-                  <td class="p-3">Nube (Inflection)</td>
-                  <td class="p-3"><span class="text-rose-600 font-semibold">Nulo (Solo texto en pantalla)</span></td>
-                  <td class="p-3">Sujeto a políticas de la nube</td>
-                  <td class="p-3 font-medium">Brainstorming personal y coaching dialógico</td>
+                  <td class="p-3 font-bold text-rose-700 dark:text-rose-400">Pi (pi.dev)</td>
+                  <td class="p-3"><span class="px-2 py-0.5 rounded bg-rose-50 dark:bg-rose-950 text-rose-700 dark:text-rose-300 font-semibold text-[11px]">Minimalista OSS (4 herramientas)</span></td>
+                  <td class="p-3">100% Local / Self-Hosted</td>
+                  <td class="p-3"><span class="text-rose-600 font-semibold">read, write, edit, bash — extensible con TypeScript</span></td>
+                  <td class="p-3 text-emerald-700 dark:text-emerald-400 font-semibold">Total (Local)</td>
+                  <td class="p-3 font-medium">Automatizaciones quirúrgicas y base para arnés personalizado</td>
                 </tr>
               </tbody>
             </table>
@@ -611,8 +675,8 @@ Este es un texto ~~tachado~~ (para marcar elementos obsoletos).</code></pre>
               <p class="text-xs text-slate-600 dark:text-slate-400 mt-1"><strong>Latencia reflexiva:</strong> los modelos de razonamiento pueden tardar varios segundos antes de generar la respuesta porque construyen cadenas de inferencia internas. No es nativamente un agente con herramientas, requiere un arnés externo.</p>
             </div>
             <div class="p-3.5 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/60 md:col-span-2">
-              <strong class="text-xs text-rose-700 dark:text-rose-300">Pi Agent:</strong>
-              <p class="text-xs text-slate-600 dark:text-slate-400 mt-1"><strong>Incapacidad operativa:</strong> No tiene acceso a tus carpetas locales, no puede generar informes descargables estructurados ni conectarse con servidores de la empresa.</p>
+              <strong class="text-xs text-rose-700 dark:text-rose-300">Pi (pi.dev) — Arnés Minimalista:</strong>
+              <p class="text-xs text-slate-600 dark:text-slate-400 mt-1"><strong>Curva de configuración:</strong> Su filosofía minimalista implica que funcionalidades avanzadas (memoria persistente, sub-agentes, LSP) <em>no vienen incluidas</em> — debes construirlas tú mismo en TypeScript. Ideal para perfiles técnicos que quieren control total; no recomendado como primera herramienta para profesionales no técnicos.</p>
             </div>
           </div>
 
@@ -696,13 +760,44 @@ Este es un texto ~~tachado~~ (para marcar elementos obsoletos).</code></pre>
             <a href="https://www.deepseek.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-sky-50 dark:bg-sky-950/40 border border-sky-200 dark:border-sky-800 text-sky-700 dark:text-sky-300 text-xs font-medium">
               <span>DeepSeek AI</span>
             </a>
-            <a href="https://pi.ai/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-rose-50 dark:bg-rose-950/40 border border-rose-200 dark:border-rose-800 text-rose-700 dark:text-rose-300 text-xs font-medium">
-              <span>Inflection Pi</span>
+            <a href="https://pi.dev/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-rose-50 dark:bg-rose-950/40 border border-rose-200 dark:border-rose-800 text-rose-700 dark:text-rose-300 text-xs font-medium">
+              <span>Pi Agent (pi.dev)</span>
             </a>
           </div>
         `
       }
-    ]
+    ,
+      {
+        title: "📝 Tarea Práctica — Módulo 02",
+        content: `
+          <div class="p-5 rounded-2xl border border-amber-200 dark:border-amber-800/60 bg-amber-50/40 dark:bg-amber-950/20">
+            <div class="flex items-center gap-3 mb-4">
+              <span class="text-2xl">📝</span>
+              <div>
+                <h4 class="font-bold text-amber-900 dark:text-amber-200 text-base">Tarea Práctica — Módulo 02</h4>
+                <p class="text-xs text-amber-700 dark:text-amber-400 font-medium">Análisis Comparativo de Agentes para Tu Organización</p>
+              </div>
+            </div>
+            <ol class="space-y-2 mb-5 list-none">
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Crea el archivo <code>docs/tarea_02_agentes.md</code>.</span></li>
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Redacta una tabla comparativa de <strong>al menos 3 agentes</strong> (Antigravity, OpenCode y uno más a tu elección) evaluando: Privacidad de datos, Facilidad de instalación, Costo estimado y Caso de uso ideal para tu empresa.</span></li>
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Escribe un párrafo de recomendación: ¿Cuál usarías primero en tu organización y por qué?</span></li>
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Identifica una limitación crítica que deberías comunicar a tu director o gerente antes de implementar cualquier agente.</span></li>
+            </ol>
+            <div class="p-3.5 rounded-xl border border-emerald-200 dark:border-emerald-800/60 bg-emerald-50/40 dark:bg-emerald-950/20 mb-3">
+              <h5 class="font-bold text-emerald-800 dark:text-emerald-300 text-xs mb-2">✅ Criterio de Éxito:</h5>
+              <ul class="space-y-1 list-none">
+              <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span><span class="text-xs text-slate-700 dark:text-slate-300">Tabla comparativa con mínimo 3 agentes y 4 criterios evaluados.</span></li>
+              <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span><span class="text-xs text-slate-700 dark:text-slate-300">Recomendación fundamentada (no genérica) con mención de al menos un riesgo.</span></li>
+              <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span><span class="text-xs text-slate-700 dark:text-slate-300">Archivo guardado en <code>docs/tarea_02_agentes.md</code>.</span></li>
+              </ul>
+            </div>
+            <div class="p-3 rounded-lg bg-blue-50/60 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800/40 text-xs text-blue-800 dark:text-blue-300">
+              💡 El objetivo de este ejercicio no es ser experto técnico, sino poder <strong>justificar decisiones tecnológicas</strong> ante stakeholders — exactamente el rol del Harness Engineer Practitioner.
+            </div>
+          </div>
+        `
+      }]
   },
   {
     id: 3,
@@ -800,7 +895,38 @@ title: Presentación de Resultados Q1
           </div>
         `
       }
-    ]
+    ,
+      {
+        title: "📝 Tarea Práctica — Módulo 03",
+        content: `
+          <div class="p-5 rounded-2xl border border-amber-200 dark:border-amber-800/60 bg-amber-50/40 dark:bg-amber-950/20">
+            <div class="flex items-center gap-3 mb-4">
+              <span class="text-2xl">📝</span>
+              <div>
+                <h4 class="font-bold text-amber-900 dark:text-amber-200 text-base">Tarea Práctica — Módulo 03</h4>
+                <p class="text-xs text-amber-700 dark:text-amber-400 font-medium">Presentación Ejecutiva con Slidev (5 diapositivas)</p>
+              </div>
+            </div>
+            <ol class="space-y-2 mb-5 list-none">
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Crea el archivo <code>docs/tarea_03_slides.md</code>.</span></li>
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Pídele al agente que genere una presentación Slidev de <strong>5 diapositivas</strong> sobre un proyecto real o hipotético de tu área (ej. implementación de IA, reporte trimestral, plan de mejora de proceso).</span></li>
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Cada diapositiva debe tener: un título claro, máximo 3 puntos de contenido y un emoji o ícono representativo.</span></li>
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Revisa el archivo generado e identifica al menos un ajuste que harías al contenido (no al formato técnico).</span></li>
+            </ol>
+            <div class="p-3.5 rounded-xl border border-emerald-200 dark:border-emerald-800/60 bg-emerald-50/40 dark:bg-emerald-950/20 mb-3">
+              <h5 class="font-bold text-emerald-800 dark:text-emerald-300 text-xs mb-2">✅ Criterio de Éxito:</h5>
+              <ul class="space-y-1 list-none">
+              <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span><span class="text-xs text-slate-700 dark:text-slate-300">Archivo <code>docs/tarea_03_slides.md</code> con separadores <code>---</code> correctos.</span></li>
+              <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span><span class="text-xs text-slate-700 dark:text-slate-300">Las 5 diapositivas tienen estructura coherente con el tema elegido.</span></li>
+              <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span><span class="text-xs text-slate-700 dark:text-slate-300">Al menos un ajuste de contenido documentado (en comentario o en el propio archivo).</span></li>
+              </ul>
+            </div>
+            <div class="p-3 rounded-lg bg-blue-50/60 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800/40 text-xs text-blue-800 dark:text-blue-300">
+              💡 Recuerda: tu trabajo no es escribir código Slidev, sino <strong>validar que el mensaje es correcto</strong> para tu audiencia ejecutiva. La IA hace la forma; tú pones el fondo.
+            </div>
+          </div>
+        `
+      }]
   },
   {
     id: 4,
@@ -874,7 +1000,38 @@ flowchart TD
           </div>
         `
       }
-    ]
+    ,
+      {
+        title: "📝 Tarea Práctica — Módulo 04",
+        content: `
+          <div class="p-5 rounded-2xl border border-amber-200 dark:border-amber-800/60 bg-amber-50/40 dark:bg-amber-950/20">
+            <div class="flex items-center gap-3 mb-4">
+              <span class="text-2xl">📝</span>
+              <div>
+                <h4 class="font-bold text-amber-900 dark:text-amber-200 text-base">Tarea Práctica — Módulo 04</h4>
+                <p class="text-xs text-amber-700 dark:text-amber-400 font-medium">Diagrama de Proceso de Negocio con Mermaid</p>
+              </div>
+            </div>
+            <ol class="space-y-2 mb-5 list-none">
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Identifica un proceso de tu departamento que tenga al menos 4 pasos secuenciales (ej. aprobación de facturas, incorporación de empleados, cierre contable mensual).</span></li>
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Pídele al agente que genere el diagrama Mermaid correspondiente (<code>flowchart TD</code>) y guárdalo en <code>docs/tarea_04_diagrama.md</code>.</span></li>
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Verifica que el diagrama representa correctamente el proceso: identifica si falta algún paso o si alguno está incorrecto.</span></li>
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Opcional: agrega un diagrama de secuencia (<code>sequenceDiagram</code>) mostrando quién aprueba cada paso.</span></li>
+            </ol>
+            <div class="p-3.5 rounded-xl border border-emerald-200 dark:border-emerald-800/60 bg-emerald-50/40 dark:bg-emerald-950/20 mb-3">
+              <h5 class="font-bold text-emerald-800 dark:text-emerald-300 text-xs mb-2">✅ Criterio de Éxito:</h5>
+              <ul class="space-y-1 list-none">
+              <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span><span class="text-xs text-slate-700 dark:text-slate-300">Archivo <code>docs/tarea_04_diagrama.md</code> con al menos un diagrama Mermaid válido.</span></li>
+              <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span><span class="text-xs text-slate-700 dark:text-slate-300">El proceso representado tiene un inicio, pasos intermedios y un resultado final.</span></li>
+              <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span><span class="text-xs text-slate-700 dark:text-slate-300">Documentas al menos una corrección o mejora que realizaste al diagrama generado por la IA.</span></li>
+              </ul>
+            </div>
+            <div class="p-3 rounded-lg bg-blue-50/60 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800/40 text-xs text-blue-800 dark:text-blue-300">
+              💡 Un diagrama que la IA genera en 10 segundos puede ahorrar una reunión de 2 horas de levantamiento de proceso. Eso es el retorno de inversión del Harness Engineering.
+            </div>
+          </div>
+        `
+      }]
   },
   {
     id: 5,
@@ -950,7 +1107,38 @@ Todas las respuestas deben entregarse en formato Markdown estructurado con tabla
           </div>
         `
       }
-    ]
+    ,
+      {
+        title: "📝 Tarea Práctica — Módulo 05",
+        content: `
+          <div class="p-5 rounded-2xl border border-amber-200 dark:border-amber-800/60 bg-amber-50/40 dark:bg-amber-950/20">
+            <div class="flex items-center gap-3 mb-4">
+              <span class="text-2xl">📝</span>
+              <div>
+                <h4 class="font-bold text-amber-900 dark:text-amber-200 text-base">Tarea Práctica — Módulo 05</h4>
+                <p class="text-xs text-amber-700 dark:text-amber-400 font-medium">Diseña tu AGENT.md para un Proyecto Real</p>
+              </div>
+            </div>
+            <ol class="space-y-2 mb-5 list-none">
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Elige un proyecto real de tu trabajo (o uno hipotético detallado) donde usarías un agente de IA.</span></li>
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Crea el archivo <code>docs/tarea_05_agentmd.md</code> con un borrador de <code>AGENT.md</code> para ese proyecto.</span></li>
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">El borrador debe incluir: Rol del agente, al menos 3 reglas inquebrantables, el contexto del proyecto (qué archivos existen) y el formato de entrega esperado.</span></li>
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Agrega al menos una regla de seguridad (<em>Human-in-the-Loop</em>): qué debe preguntar el agente antes de ejecutar acciones irreversibles.</span></li>
+            </ol>
+            <div class="p-3.5 rounded-xl border border-emerald-200 dark:border-emerald-800/60 bg-emerald-50/40 dark:bg-emerald-950/20 mb-3">
+              <h5 class="font-bold text-emerald-800 dark:text-emerald-300 text-xs mb-2">✅ Criterio de Éxito:</h5>
+              <ul class="space-y-1 list-none">
+              <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span><span class="text-xs text-slate-700 dark:text-slate-300">Archivo <code>docs/tarea_05_agentmd.md</code> con las 4 secciones requeridas.</span></li>
+              <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span><span class="text-xs text-slate-700 dark:text-slate-300">Las reglas son específicas y aplicables (no genéricas como 'sé amable').</span></li>
+              <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span><span class="text-xs text-slate-700 dark:text-slate-300">Incluye al menos una regla de confirmación humana para acciones de riesgo.</span></li>
+              </ul>
+            </div>
+            <div class="p-3 rounded-lg bg-blue-50/60 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800/40 text-xs text-blue-800 dark:text-blue-300">
+              💡 Un buen <code>AGENT.md</code> es como un contrato de trabajo para la IA — cuanto más específico, menos sorpresas desagradables. Este ejercicio es la habilidad central del Harness Engineer.
+            </div>
+          </div>
+        `
+      }]
   },
   {
     id: 6,
@@ -1106,7 +1294,39 @@ Genera el contenido estructurado final:
           </div>
         `
       }
-    ]
+    ,
+      {
+        title: "📝 Tarea Práctica — Módulo 06",
+        content: `
+          <div class="p-5 rounded-2xl border border-amber-200 dark:border-amber-800/60 bg-amber-50/40 dark:bg-amber-950/20">
+            <div class="flex items-center gap-3 mb-4">
+              <span class="text-2xl">📝</span>
+              <div>
+                <h4 class="font-bold text-amber-900 dark:text-amber-200 text-base">Tarea Práctica — Módulo 06</h4>
+                <p class="text-xs text-amber-700 dark:text-amber-400 font-medium">Prompts Avanzados: Few-Shot y Chain-of-Thought</p>
+              </div>
+            </div>
+            <ol class="space-y-2 mb-5 list-none">
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Elige una tarea de análisis o clasificación de tu área (ej. clasificar correos por urgencia, categorizar gastos, evaluar propuestas de proveedores).</span></li>
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Escribe un prompt <strong>Few-Shot</strong> con 2 ejemplos completos (entrada → salida esperada) y aplícalo a 3 casos reales. Guarda en <code>docs/tarea_06_prompts.md</code>.</span></li>
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Para la misma tarea, escribe un prompt <strong>Chain-of-Thought</strong> que pida al agente razonar en voz alta antes de dar la respuesta final.</span></li>
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Compara los resultados: ¿Cuál fue más preciso? ¿Cuál fue más costoso en tiempo?</span></li>
+            </ol>
+            <div class="p-3.5 rounded-xl border border-emerald-200 dark:border-emerald-800/60 bg-emerald-50/40 dark:bg-emerald-950/20 mb-3">
+              <h5 class="font-bold text-emerald-800 dark:text-emerald-300 text-xs mb-2">✅ Criterio de Éxito:</h5>
+              <ul class="space-y-1 list-none">
+              <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span><span class="text-xs text-slate-700 dark:text-slate-300">Archivo <code>docs/tarea_06_prompts.md</code> con ambos tipos de prompts documentados.</span></li>
+              <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span><span class="text-xs text-slate-700 dark:text-slate-300">El prompt Few-Shot tiene al menos 2 ejemplos completos con formato de tabla.</span></li>
+              <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span><span class="text-xs text-slate-700 dark:text-slate-300">El prompt Chain-of-Thought incluye instrucción explícita de razonamiento paso a paso.</span></li>
+              <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span><span class="text-xs text-slate-700 dark:text-slate-300">Hay una comparación breve (3-5 líneas) de los resultados obtenidos.</span></li>
+              </ul>
+            </div>
+            <div class="p-3 rounded-lg bg-blue-50/60 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800/40 text-xs text-blue-800 dark:text-blue-300">
+              💡 Los prompts Few-Shot son como formularios pre-llenados que guían a la IA. Los Chain-of-Thought son como pedirle al agente que 'muestre el trabajo' — útiles cuando la precisión importa más que la velocidad.
+            </div>
+          </div>
+        `
+      }]
   },
   {
     id: 7,
@@ -1167,7 +1387,39 @@ flowchart LR
           </div>
         `
       }
-    ]
+    ,
+      {
+        title: "📝 Tarea Práctica — Módulo 07",
+        content: `
+          <div class="p-5 rounded-2xl border border-amber-200 dark:border-amber-800/60 bg-amber-50/40 dark:bg-amber-950/20">
+            <div class="flex items-center gap-3 mb-4">
+              <span class="text-2xl">📝</span>
+              <div>
+                <h4 class="font-bold text-amber-900 dark:text-amber-200 text-base">Tarea Práctica — Módulo 07</h4>
+                <p class="text-xs text-amber-700 dark:text-amber-400 font-medium">Primera Confirmación de Historial de Trabajo con Git</p>
+              </div>
+            </div>
+            <ol class="space-y-2 mb-5 list-none">
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Abre la carpeta <code>curso-_harness_engineering/</code> con GitHub Desktop.</span></li>
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Verifica que los archivos de tus tareas anteriores aparecen como cambios pendientes.</span></li>
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Realiza un <em>commit</em> con el mensaje: <code>"feat: tareas completadas módulos 00-06"</code>.</span></li>
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Opcionalmente, publica (push) los cambios al repositorio remoto en GitHub.</span></li>
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Captura o describe el estado del panel de GitHub Desktop tras el commit exitoso en un archivo <code>docs/tarea_07_git.md</code>.</span></li>
+            </ol>
+            <div class="p-3.5 rounded-xl border border-emerald-200 dark:border-emerald-800/60 bg-emerald-50/40 dark:bg-emerald-950/20 mb-3">
+              <h5 class="font-bold text-emerald-800 dark:text-emerald-300 text-xs mb-2">✅ Criterio de Éxito:</h5>
+              <ul class="space-y-1 list-none">
+              <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span><span class="text-xs text-slate-700 dark:text-slate-300">Al menos un commit realizado con mensaje descriptivo.</span></li>
+              <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span><span class="text-xs text-slate-700 dark:text-slate-300">Archivo <code>docs/tarea_07_git.md</code> describiendo la experiencia.</span></li>
+              <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span><span class="text-xs text-slate-700 dark:text-slate-300">Entiende la diferencia entre <em>commit</em> (guardar localmente) y <em>push</em> (compartir al servidor).</span></li>
+              </ul>
+            </div>
+            <div class="p-3 rounded-lg bg-blue-50/60 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800/40 text-xs text-blue-800 dark:text-blue-300">
+              💡 Este commit es tu primera 'fotografía oficial' del progreso del curso. Los commits frecuentes son el equivalente al botón Ctrl+Z infinito — sin ellos, cada error es permanente.
+            </div>
+          </div>
+        `
+      }]
   },
   {
     id: 8,
@@ -1239,7 +1491,39 @@ flowchart TD
           </div>
         `
       }
-    ]
+    ,
+      {
+        title: "📝 Tarea Práctica — Módulo 08",
+        content: `
+          <div class="p-5 rounded-2xl border border-amber-200 dark:border-amber-800/60 bg-amber-50/40 dark:bg-amber-950/20">
+            <div class="flex items-center gap-3 mb-4">
+              <span class="text-2xl">📝</span>
+              <div>
+                <h4 class="font-bold text-amber-900 dark:text-amber-200 text-base">Tarea Práctica — Módulo 08</h4>
+                <p class="text-xs text-amber-700 dark:text-amber-400 font-medium">Diseño de Escenario MCP para Tu Organización</p>
+              </div>
+            </div>
+            <ol class="space-y-2 mb-5 list-none">
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Elige una herramienta externa relevante para tu trabajo: Google Sheets, Gmail/correo institucional, o una carpeta de archivos con registros históricos.</span></li>
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Crea el archivo <code>docs/tarea_08_mcp.md</code> y responde: (1) ¿Qué datos debe <em>leer</em> el agente? (2) ¿Qué debe <em>escribir o actualizar</em>? (3) ¿Qué acción <strong>nunca</strong> debe ejecutar sin confirmación humana?</span></li>
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Redacta el prompt completo de 3 pasos (Arquitecto y Auditor): Definición del problema → Solicitud del script → Instrucciones de ejecución.</span></li>
+              <li class="flex items-start gap-2"><span class="mt-0.5 text-amber-600 dark:text-amber-400 font-bold text-xs">→</span><span class="text-xs text-slate-700 dark:text-slate-300">Identifica una señal de alerta (<em>red flag</em>) que indicaría que el agente está actuando fuera de sus límites.</span></li>
+            </ol>
+            <div class="p-3.5 rounded-xl border border-emerald-200 dark:border-emerald-800/60 bg-emerald-50/40 dark:bg-emerald-950/20 mb-3">
+              <h5 class="font-bold text-emerald-800 dark:text-emerald-300 text-xs mb-2">✅ Criterio de Éxito:</h5>
+              <ul class="space-y-1 list-none">
+              <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span><span class="text-xs text-slate-700 dark:text-slate-300">Archivo <code>docs/tarea_08_mcp.md</code> con las 3 preguntas del paso 2 respondidas.</span></li>
+              <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span><span class="text-xs text-slate-700 dark:text-slate-300">Prompt de 3 pasos redactado con datos reales o verosímiles de tu contexto.</span></li>
+              <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span><span class="text-xs text-slate-700 dark:text-slate-300">Al menos una acción identificada como requerida de confirmación humana.</span></li>
+              <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span><span class="text-xs text-slate-700 dark:text-slate-300">Al menos un <em>red flag</em> documentado con criterio de detección.</span></li>
+              </ul>
+            </div>
+            <div class="p-3 rounded-lg bg-blue-50/60 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800/40 text-xs text-blue-800 dark:text-blue-300">
+              💡 Este ejercicio representa el nivel más avanzado del curso — diseñas el arnés completo de conexión entre IA y sistemas empresariales sin escribir una línea de código. Eso es Harness Engineering aplicado.
+            </div>
+          </div>
+        `
+      }]
   },
   {
     id: 9,

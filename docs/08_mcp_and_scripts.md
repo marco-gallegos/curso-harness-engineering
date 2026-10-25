@@ -46,6 +46,49 @@ Al completar este programa, has pasado de ser un simple **usuario pasivo de chat
 
 ---
 
+---
+
+## 📝 Tarea Práctica del Módulo 08 (Homework)
+
+### Objetivo:
+Diseñar un escenario real de conexión MCP aplicado a tu contexto profesional.
+
+### Instrucciones:
+
+**Paso 1 — Elige una herramienta externa relevante** para tu área de trabajo:
+- Opción A: **Google Sheets** — conectar el agente a una hoja de cálculo de reportes.
+- Opción B: **Gmail o correo institucional** — leer asuntos de correos no respondidos y generar un resumen.
+- Opción C: **Base de datos local** — una carpeta de archivos Excel o CSV con registros históricos.
+
+**Paso 2 — Describe el escenario** respondiendo estas preguntas en un archivo `docs/tarea_08_mcp.md`:
+1. ¿Qué información debe *leer* el agente desde esa herramienta?
+2. ¿Qué información debe *escribir o actualizar* el agente?
+3. ¿Qué acción NO debe realizar nunca el agente sin confirmación humana?
+
+**Paso 3 — Redacta el prompt de tres pasos (Arquitecto y Auditor):**
+
+Usando el esquema del módulo, escribe el prompt completo:
+
+```
+PASO 1 — DEFINICIÓN:
+"Tengo [describe la herramienta y los datos]. Necesito que el agente [describe la tarea]."
+
+PASO 2 — SOLICITUD DE SCRIPT:
+"Crea un script que [acción concreta] y guarda el resultado en [nombre del archivo de salida]."
+
+PASO 3 — INSTRUCCIONES DE EJECUCIÓN:
+"Dime exactamente qué debo hacer para ejecutar este script sin usar la terminal manualmente."
+```
+
+### Criterio de Éxito:
+- [ ] Archivo `docs/tarea_08_mcp.md` creado con las 3 preguntas respondidas.
+- [ ] Prompt de 3 pasos redactado con datos reales de tu contexto de trabajo.
+- [ ] Identificas al menos una acción que debe requerir confirmación humana antes de ejecutarse.
+
+> 💡 **Consejo:** Este ejercicio es el más cercano al trabajo real de un Harness Engineer Practitioner — diseñas el arnés sin escribir una sola línea de código.
+
+---
+
 ## 🔗 Referencias Externas y Recursos
 - [Model Context Protocol (MCP) Documentation](https://modelcontextprotocol.io/)
 - [Ecosistema de Servidores MCP Oficiales](https://github.com/modelcontextprotocol/servers)

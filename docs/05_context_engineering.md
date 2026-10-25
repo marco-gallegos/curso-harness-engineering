@@ -60,6 +60,21 @@ Todas las respuestas deben entregarse en formato Markdown estructurado con tabla
 
 ---
 
+## 📝 Tarea Práctica del Módulo (Homework 05)
+
+**Objetivo:** Construir el archivo de arnés central (`AGENT.md`) para gobernar el comportamiento de la IA en tu área laboral.
+
+### Instrucciones Paso a Paso:
+1. En la raíz de tu carpeta de trabajo, crea o edita el archivo `AGENT.md`.
+2. Define claramente 4 secciones fundamentales:
+   - **Rol y Objetivo del Agente:** ¿Quién es y qué metas de negocio debe cumplir? (ej. Asistente de Operaciones y Facturación).
+   - **Contexto de la Empresa:** Breve descripción de la organización, tamaño y giro de negocio.
+   - **Reglas Inquebrantables (Mínimo 3):** Normas estrictas (ej. no inventar datos numéricos, moneda obligatoria en USD/MXN, tono formal sin modismos).
+   - **Formato de Entrega:** Especifica que todas las salidas deben ser entregadas en Markdown estructurado con tablas o listas ordenadas.
+3. **Entregable:** Archivo `AGENT.md` guardado en la raíz de tu proyecto para que cualquier agente lo asimile automáticamente.
+
+---
+
 ## 🔗 Referencias Externas y Recursos
 - [Artículo: Context Engineering for AI Agents (Anthropic)](https://www.anthropic.com/research)
 - [Guía de Configuración de AGENT.md y System Prompts](https://antigravity.google)

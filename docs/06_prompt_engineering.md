@@ -139,6 +139,19 @@ Escribe el bloque exacto que se guardará en `ESTADO_REEMBOLSO.md`:
 
 ---
 
+## 📝 Tarea Práctica del Módulo (Homework 06)
+
+**Objetivo:** Redactar un prompt ejecutivo con técnica de Few-Shot o Chain-of-Thought para gobernar un archivo de estado bandera.
+
+### Instrucciones Paso a Paso:
+1. Diseña un prompt estructurado aplicando la **Fórmula de 4 Elementos** (*Persona, Contexto, Restricciones y Formato*).
+2. Incorpora la técnica de **Few-Shot** (dar 2 ejemplos de entrada/salida) o de **Chain-of-Thought** (*"Piensa paso a paso y justifica..."*).
+3. Pídele al agente que evalúe un proceso administrativo y genere el contenido para actualizar un archivo de bandera (`STATUS.flag` o `ESTADO_PROCESO.md`).
+4. Ejecuta el prompt con tu agente de IA y evalúa si la bandera generada cumplió con el formato sin alucinaciones.
+5. **Entregable:** Guarda el prompt y el archivo bandera resultante en `docs/tarea_06_prompt.md`.
+
+---
+
 ## 🔗 Referencias Externas y Recursos
 - [Guía de Prompt Engineering de OpenAI](https://platform.openai.com/docs/guides/prompt-engineering)
 - [Anthropic Interactive Prompt Engineering Tutorial](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)
