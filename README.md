@@ -17,6 +17,10 @@ Este curso se distribuye como una carpeta autónoma que contiene los siguientes 
 
 ```text
 curso-_harness_engineering/
+├── 🌐 index.html                   # Plataforma Web Interactiva (Wizard + Evaluación)
+├── 📂 assets/                      # Estilos, lógica y banco de preguntas
+│   ├── css/styles.css
+│   └── js/ (modulesData.js, quizData.js, app.js)
 ├── 📄 README.md                   # (Este archivo) Guía general del curso y Roadmap
 ├── 📂 presentation.ppt               # Presentación principal (PPT)
 └── 📂 docs/                       # Guías conceptuales y módulos de estudio profundo
@@ -29,6 +33,10 @@ curso-_harness_engineering/
     ├── 07_version_control.md
     └── 08_mcp_and_scripts.md
 ```
+
+### 🌐 Cómo Abrir la Plataforma Web Interactiva:
+- Solo abre [index.html](file:///home/gallem/Desktop/curso-_harness_engineering/index.html) directamente en tu navegador preferido (Chrome, Edge, Firefox, Safari).
+- Incluye navegación tipo Wizard paso a paso, progreso dinámico, renderizado en vivo de diagramas Mermaid y Evaluación Final con persistencia en `LocalStorage` y generación de certificado.
 
 ---
 
@@ -87,13 +95,24 @@ Ubicados en la carpeta [`docs/`](file:///home/gallem/Desktop/curso-_harness_engi
 | Módulo | Tema Principal | Guía de Detalle |
 | :--- | :--- | :--- |
 | **01** | **Markdown** | [Guía 01: Markdown Fundamentos](file:///home/gallem/Desktop/curso-_harness_engineering/docs/01_markdown_guide.md) |
-| **02** | **Agente Antigravity** | [Guía 02: Ecosistema Antigravity](file:///home/gallem/Desktop/curso-_harness_engineering/docs/02_antigravity_guide.md) |
+| **02** | **Ecosistema de Agentes** | [Guía 02: Antigravity, OpenCode, Claude, Pi y DeepSeek](file:///home/gallem/Desktop/curso-_harness_engineering/docs/02_antigravity_guide.md) |
 | **03** | **Slidev** | [Guía 03: Presentaciones con Slidev](file:///home/gallem/Desktop/curso-_harness_engineering/docs/03_slidev_guide.md) |
 | **04** | **Mermaid** | [Guía 04: Diagramas con Mermaid](file:///home/gallem/Desktop/curso-_harness_engineering/docs/04_mermaid_guide.md) |
 | **05** | **Context Engineering** | [Guía 05: Ingeniería de Contexto](file:///home/gallem/Desktop/curso-_harness_engineering/docs/05_context_engineering.md) |
 | **06** | **Prompt Engineering** | [Guía 06: Prompt Engineering Práctico](file:///home/gallem/Desktop/curso-_harness_engineering/docs/06_prompt_engineering.md) |
 | **07** | **Control de Versiones** | [Guía 07: Git y GitHub Desktop](file:///home/gallem/Desktop/curso-_harness_engineering/docs/07_version_control.md) |
 | **08** | **MCP y Automatización** | [Guía 08: MCP y Scripts Asistidos](file:///home/gallem/Desktop/curso-_harness_engineering/docs/08_mcp_and_scripts.md) |
+
+---
+
+## 🛠️ Entorno de Trabajo: Editores de Código y Texto Recomendados
+
+Aunque este curso **no requiere programar**, un practicante de Harness Engineering interactúa con archivos de texto plano (`.md`, `AGENT.md`, diagramas Mermaid). No usamos Microsoft Word porque incluye formatos invisibles; en su lugar, se recomienda instalar un **editor de código moderno**:
+
+- **Visual Studio Code (VS Code)**: El estándar mundial gratuito de Microsoft (Windows/Mac/Linux), con soporte excelente para previsualizar Markdown y Mermaid.
+- **Zed**: Editor de última generación ultra-ligero y rápido, desarrollado en Rust, con integración nativa para modelos de IA.
+- **Cursor / Windsurf**: Editores basados en VS Code con agentes de IA autónomos integrados en el espacio de trabajo.
+- **Obsidian**: Excelente para organizar notas y procedimientos interconectados en Markdown local.
 
 ---
 
